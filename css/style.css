@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    overflow: auto;
+    padding: 20px 4rem;
+    position: fixed;
+    width: 85%;
+    background-attachment: fixed;
+}
+.logo a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: bold;
+}
+.logo{
+    float: left;
+}
+.logo a{
+    margin-left: 18rem;
+}
+.nav{
+    float: right;
+    margin-top: 5px;
+}
+.nav a{
+    margin-left: 25px;
+}
+.slider{
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+    padding: 21rem 0;
+    background-position: center;
+    background-size: cover;
+}
+.slider h1{
+    font-size: 56px;
+    color: #ffffff;
+}
+.slider p{
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+.slider a{
+    background-color: #f4623a;
+    color: #ffffff;
+    padding: 20px 36px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.slider hr{
+    width: 3%;
+    background-color: #f4623a;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+}
+.main{
+    background-color: #f4623a;
+    text-align: center;
+    padding: 4rem 0;
+}
+.main h2{
+    font-size: 56px;
+    color: #ffffff;
+}
+.main p{
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+.main a{
+    background-color: #fff;
+    color: #000;
+    padding: 20px 36px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.main hr{
+    width: 3%;
+    background-color: #fff;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+}
+.gallery .box{
+    width: calc(100%/3);
+    float: left;
+}
+.gallery .box img{
+    vertical-align: bottom;
+    width: 100%;
+    filter: grayscale(1);
+    transition: 0.5s;
+}
+.gallery .box:hover img{
+    filter: grayscale(0);
+}
+.main2{
+ text-align: center;
+ padding: 108px 0;
+ background-color: #212529;
+}
+.main2 h2{
+    font-size: 32px;
+    color: #ffffff;
+    margin: 43rem 0 3rem;
+}
+.main2 a{
+    background-color: #fff;
+    color: #000;
+    padding: 20px 36px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.contact{
+    text-align: center;
+    padding: 8rem 0;
+}
+.contact h2{
+    font-size: 32px;
+    
+}
+.contact hr{
+
+    width: 3%;
+    background-color: #f4623a;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+}
+.contact p{
+    font-size: 20px;
+    color: #6c757d;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+#about
+{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+#about input{
+
+    padding: 26px 12px 10px;
+    margin-bottom: 2rem ;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(128, 128, 128, 0.472);
+    outline: none;
+    width:60%;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#about textarea{
+    height: 12rem;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(128, 128, 128, 0.472);
+    outline: none;
+    width:60%;
+    margin-bottom: 40px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 3rem;
+    overflow: hidden;
+    
+}
+.contact a{
+    background-color: #f4623a;
+    color: #ffffff;
+    padding: 20px 250px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.num{
+   margin-top: 8rem;
+   font-size: 20px;
+   color: #212529;
+   font-weight: 500;
+   text-align: center;
+}
+#footer{
+    background-color: #F8F9FA;
+    color: #212529;
+    padding: 48px 0px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: normal;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
